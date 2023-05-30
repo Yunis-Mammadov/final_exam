@@ -1,0 +1,60 @@
+.parentHero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
+  background-position: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://preview.colorlib.com/theme/server/images/hero_bg_2.jpg.webp") no-repeat;
+  padding: 15%;
+  object-fit: contain;
+  position: relative;
+  bottom: 50px;
+  width: 100%;
+}
+
+.heroH1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 50;
+}
+
+.heroRegisterButton{
+    color: white;
+    background-color: transparent;
+    border: 1px solid rgb(124,189,30);
+    padding: 15px 20px;
+    transition: 0.5s;
+}
+
+.heroRegisterButton:hover{
+    color: white;
+    background-color:  rgb(124,189,30);
+    border: 1px solid rgb(124,189,30);
+    padding: 15px 20px;
+}
+
+.heroLoginButton{
+    color: white;
+    background-color:  rgb(124,189,30);
+    border: 1px solid rgb(124,189,30);
+    padding: 15px 20px;
+    transition: 0.5s;
+
+}
+
+.heroLoginButton:hover{
+    color: white;
+    background-color:  rgb(124,189,30);
+    border: 1px solid rgb(124,189,30);
+    padding: 15px 20px;
+    opacity: calc(0.8);
+}
+
+.heroButtons{
+    position: relative;
+    top: 40px;
+    display: flex;
+    gap: 20px;
+}

@@ -1,0 +1,25 @@
+.serverH1{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.serverButton{
+    color: white;
+    background-color:  rgb(124,189,30);
+    border: 1px solid rgb(124,189,30);
+    padding: 10px 20px;
+}
+
+.serverButton:hover{
+    color: white;
+    background-color:  rgb(124,189,30);
+    border: 1px solid rgb(124,189,30);
+    padding: 10px 20px;
+    cursor: pointer;
+    opacity: calc(0.9);
+}

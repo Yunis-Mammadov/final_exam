@@ -1,0 +1,51 @@
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.linksParent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.navbarRegisterButton{
+    color: white;
+    background-color: transparent;
+    border: 1px solid rgb(124,189,30);
+    padding: 10px 20px;
+    transition: 0.5s;
+    position: relative
+}
+
+.navbarRegisterButton:hover{
+    color: white;
+    background-color:  rgb(124,189,30);
+    border: 1px solid rgb(124,189,30);
+    padding: 10px 20px;
+}
+
+.navbarLoginButton{
+    color: white;
+    background-color:  rgb(124,189,30);
+    border: 1px solid rgb(124,189,30);
+    padding: 10px 20px;
+    transition: 0.5s;
+
+}
+
+.navbarLoginButton:hover{
+    color: white;
+    background-color: rgb(124,189,30) ;
+    border: 1px solid rgb(124,189,30);
+    padding: 10px 20px;
+    opacity: calc(0.8);
+}
+
+.navbarButtons{
+    display: flex;
+    gap: 20px;
+}

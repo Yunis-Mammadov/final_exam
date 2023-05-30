@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.clientHero {
+  background-position: bottom;
+  object-fit: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://preview.colorlib.com/theme/server/images/hero_bg_3.jpg.webp")
+      no-repeat;
+  padding: 15%;
+  position: relative;
+  bottom: 70px;
+  width: 100%;
+  object-fit: contain;
+  margin-top: 200px;
+}
+
+.textClient {
+  position: absolute;
+  bottom: 180px;
+}
+
+.serverH1 {
+  color: white;
+  font-size: 4rem;
+  font-weight: 50;
+}
+
+.serverP {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 50;
+}
+
+.clientButton{
+    color: white;
+    background-color:  rgb(124,189,30);
+    border: 1px solid rgb(124,189,30);
+    padding: 20px 30px;
+    transition: 0.5s;
+    margin-top: 50px;
+}
+
+.clientButton:hover{
+    color: white;
+    background-color:  rgb(124,189,30);
+    border: 1px solid rgb(124,189,30);
+    padding: 20px 30px;
+    opacity: calc(0.8);
+    cursor: pointer;
+}

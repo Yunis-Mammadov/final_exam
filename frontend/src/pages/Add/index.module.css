@@ -1,0 +1,51 @@
+
+.parentAddServer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    background-color:rgb(94, 144, 26);; 
+    border: 1px solid rgb(124,189,30);;
+    border-radius: 4px;
+}
+
+.inputField{
+    width: 250px;
+
+}
+
+.inputParent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label{
+    font-size: 20px;
+    color: white;
+}
+
+.buttonAdd{
+    margin-top: 30px;
+    padding: 10px 25px;
+    color: black;
+    background-color: white;   
+    border: none; 
+}
+
+.buttonAdd:hover{
+    color: rgb(246,33,75);
+    background-color: black;
+    border: 1px solid ;
+}
